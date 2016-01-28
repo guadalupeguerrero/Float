@@ -1,27 +1,38 @@
 
 
 
-div{
-	width: 300px;
+div>div{
+	width: 25%;
 	height: 100px;
+	float: left;
+
 }
 
 .papa{
 	width: 800px;
-	height: 300px;
 	border: 3px solid;
 }
 
 .cuadroa{
 	background-color: yellow;
+	
 
 }
 .cuadrob{
 	background-color: blue;
+
 	
 }
 .cuadroc{
 	background-color: red;
-	;
+
 }
-	
+
+.clearfix:before, .clearfix:after{
+content: "";
+display: table;
+	}
+
+.clearfix:after{
+	clear: both;
+}
